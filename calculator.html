@@ -1,0 +1,42 @@
+<!DOCTYPE html>	
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>myCalculator --version 1.0</title>
+		<link rel="stylesheet" type="text/css" href="cal.css">
+	</head>
+	<body>
+	
+	<div id="wrapper">
+		<div id = 'mem'></div>
+		<div id = 'result'>
+			<input type="text" name="show" class='show' readonly>
+		</div>
+		<div id="on">
+			<button onclick="btnof()" >ON</button><button onclick="btnCl()">Clear/OFF</button><button  onclick="btnBsp()" class='bkspc'></button>
+		</div><hr>
+		<div id="a">
+			<button onclick="btn7()">7</button><button onclick="btn8()">8</button><button onclick="btn9()">9</button>
+		</div>
+		<div id="b">
+			<button onclick="btn4()">4</button><button onclick="btn5()">5</button><button onclick="btn6()">6</button>
+		</div>
+		<div id="a">
+			<button onclick="btn1()">1</button><button onclick="btn2()">2</button><button onclick="btn3()">3</button>
+		</div>
+		<div id='d'>
+			<button onclick="btn0()">0</button><button onclick="btnDot()">.</button><button onclick="btnR()">=</button>
+		</div>
+		<div id="e">
+			<button onclick="btnP()">+</button><button onclick="btnM()">-</button><button onclick="btnMu()">*</button>
+		</div>
+		<div id="f">
+			<button onclick="btnDv()" >/</button><button onclick="btnMo()" >%</button><button onclick="btnMem()" >M+</button>
+		</div>
+		<div id='h'>
+			
+		</div>
+	</div>
+	<script type="text/javascript" src="cal.js"></script>
+	</body>
+	</html>
